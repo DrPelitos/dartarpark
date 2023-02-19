@@ -1,0 +1,1 @@
+tellraw @a[tag=admin] {"text": "Dartarpark has loaded", "color": "#32CD32"}

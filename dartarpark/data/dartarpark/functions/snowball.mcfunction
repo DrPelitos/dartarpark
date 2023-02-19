@@ -1,0 +1,8 @@
+execute at @e[nbt={Item:{id:"minecraft:snowball", tag:{dsnow:1}}}] run summon item ~ ~ ~ {Item:{id:"minecraft:diamond", Count:1}}
+execute at @e[nbt={Item:{id:"minecraft:snowball", tag:{boatwdiachest:1}}}] run summon minecraft:chest_minecart ~ ~ ~ {Items:[{Slot:0,id:"diamond",Count:64},{Slot:1,id:"diamond",Count:64},{Slot:2,id:"diamond",Count:64},{Slot:3,id:"diamond",Count:64},{Slot:4,id:"diamond",Count:64},{Slot:5,id:"diamond",Count:64},{Slot:6,id:"diamond",Count:64},{Slot:7,id:"diamond",Count:64},{Slot:8,id:"diamond",Count:64},{Slot:9,id:"diamond",Count:64},{Slot:10,id:"diamond",Count:64},{Slot:11,id:"diamond",Count:64},{Slot:12,id:"diamond",Count:64},{Slot:13,id:"diamond",Count:64},{Slot:14,id:"diamond",Count:64},{Slot:15,id:"diamond",Count:64},{Slot:16,id:"diamond",Count:64},{Slot:17,id:"diamond",Count:64},{Slot:18,id:"diamond",Count:64},{Slot:19,id:"diamond",Count:64},{Slot:20,id:"diamond",Count:64},{Slot:21,id:"diamond",Count:64},{Slot:22,id:"diamond",Count:64},{Slot:23,id:"diamond",Count:64},{Slot:24,id:"diamond",Count:64},{Slot:25,id:"diamond",Count:64},{Slot:26,id:"diamond",Count:64}]}
+execute at @e[nbt={Item:{id:"minecraft:snowball", tag:{arrow:1}}}] run summon arrow
+execute at @e[nbt={Item:{id:"minecraft:snowball", tag:{egg:1}}}] run summon egg
+execute at @e[nbt={Item:{id:"minecraft:snowball", tag:{spit:1}}}] run summon llama_spit
+execute at @e[nbt={Item:{id:"minecraft:snowball", tag:{shulkerbullet:1}}}] run summon shulker_bullet
+execute at @e[nbt={Item:{id:"minecraft:snowball", tag:{witherskull:1}}}] run summon wither_skull
+execute at @e[nbt={Item:{id:"minecraft:snowball", tag:{tnt:1}}}] run summon tnt ~ ~ ~ {Fuse:50}
